@@ -1,0 +1,10 @@
+# a = int(input())
+# b = int(input())
+# c = int(input())
+a , b , c = int(input()) , int(input()),int(input())
+d = []
+d.append(a), d.append(b), d.append(c)
+print(max(d))
+print(min(d))
+last_element=sum(d)-(max(d)+min(d))
+print(last_element)
